@@ -1,5 +1,9 @@
 #include<stdio>
-/*main- a function that prints a line with puts function*/
+/**
+ * main - program prints a line with puts function
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
