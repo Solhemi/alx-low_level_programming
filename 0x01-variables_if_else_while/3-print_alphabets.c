@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-char alpha = 'a';
-char alpha = 'A';
+char alpha1 = 'a';
+char alpha2 = 'A';
 {
-for (alpha = 'a'; alpha <= 'z'; alpha++)
-putchar(alpha);
-for (alpha = 'A'; alpha <= 'Z'; alpha++)
-putchar(alpha);
+for (alpha1 = 'a'; alpha1 <= 'z'; alpha1++)
+putchar(alpha1);
+for (alpha2 = 'A'; alpha2 <= 'Z'; alpha2++)
+putchar(alpha2);
 putchar('\n');
 }
 return (0);
