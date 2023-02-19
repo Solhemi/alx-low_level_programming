@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 /**
  * main- entry point
@@ -12,6 +13,6 @@
 
 int main(void)
 {
-	fwrite("and that piece of art is useful" - Dora Korpar, 2015-10-19", stderr);
+	fwrite(""and that piece of art is useful" - Dora Korpar, 2015-10-19", stderr);
 	return (0);
 }
