@@ -8,7 +8,7 @@
 
 int main(void)
 {
-char hexa = '0';
+char hexa = '0x';
 putchar('%x');
 putchar('\n');
 return (0);
