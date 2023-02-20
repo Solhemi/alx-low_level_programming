@@ -11,7 +11,7 @@ int main(void)
 char hexad;
 char hexan;
 {
-for (hexad = 0, hexan = 'a' ; hexad <= '9' &&  hexan <= 'f'; hexad++, hexan++)
+for (hexad = '0', hexan = 'a' ; hexad <= '9' &&  hexan <= 'f'; hexad++, hexan++)
 putchar(hexad);
 putchar(hexan);
 putchar('\n');
