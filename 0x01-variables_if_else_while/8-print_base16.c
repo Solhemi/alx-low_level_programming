@@ -1,15 +1,21 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main -entry point
  *
- * Return: always (0) success
+ * return: always (0) success
  */
 
 int main(void)
 {
-char hexa = '0x';
-putchar('%x');
+char hexadig = '0';
+char hexanum = 'a';
+{
+for (hexadig = '0'; hexadig <= '9'; hexadig++)
+putchar(hexadig);
+for (hexanum = 'a'; hexanum <= 'f'; hexanum++)
+putchar(hexanum);
 putchar('\n');
+}
 return (0);
 }
