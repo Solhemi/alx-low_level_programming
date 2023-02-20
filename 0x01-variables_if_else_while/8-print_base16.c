@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- *
+ * Description:- main function lists hexadecimal
  * return: always 0 (success)
  */
 int main(void)
