@@ -2,19 +2,19 @@
 
 /**
  * main - entry point
- * 
- * return: always 0 success
+ *
+ * return: always 0 (success)
  */
 
 int main(void)
 {
-char hexadig = '0';
-char hexanum = 'a';
+char hexad = '0';
+char hexan = 'a';
 {
-for (hexadig = '0'; hexadig <= '9'; hexadig++)
-putchar(hexadig);
-for (hexanum = 'a'; hexanum <= 'f'; hexanum++)
-putchar(hexanum);
+for (hexad = 0, hexan = a; hexad <= '9' &&  hexan <= 'f'; hexad++, hexan++)
+putchar(hexad);
+putchar(hexan);
 putchar('\n');
 }
 return (0);
+}
