@@ -11,11 +11,11 @@ int num;
 int alpha;
 for (num = 48; num <= 57; num++)
 {
-putchar('num');
+putchar(num);
 }
 for (alpha = 97; alpha <= 102; alpha++)
 {
-putchar('alpha');
+putchar(alpha);
 }
 return (0);
 }
