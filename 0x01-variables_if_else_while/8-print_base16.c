@@ -5,16 +5,17 @@
  *
  * return: always 0 (success)
  */
-
 int main(void)
 {
-char hexad;
-char hexan;
+int num;
+int alpha;
+for (num = 48; num <= 57; num++)
 {
-for (hexad = '0', hexan = 'a' ; hexad <= '9' &&  hexan <= 'f'; hexad++, hexan++)
-putchar(hexad);
-putchar(hexan);
-putchar('\n');
+putchar('num');
+}
+for (alpha = 97; alpha <= 102; alpha++)
+{
+putchar('alpha');
 }
 return (0);
 }
