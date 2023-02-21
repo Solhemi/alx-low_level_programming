@@ -17,6 +17,7 @@ int main(void)
 	for (alpha = 97; alpha < 103; alpha++)
 	{
 		putchar(alpha);
+		putchar(' ');
 	}
 	return (0);
 }
