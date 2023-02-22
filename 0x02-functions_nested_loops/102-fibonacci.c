@@ -24,7 +24,7 @@ int main(void)
 		{
 			k = k + j;
 			j = k - j;
-			printf(", %ld",k);
+			printf(", %ld", k);
 		}
 		++i;
 	}
