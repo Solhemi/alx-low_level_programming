@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - tests if char. is upper case
+ * _isupper - tests if char. is upper case
  * @c: is an integer input
- * Dexcription:_isupper function
+ *
+ * Description
  * Return: (1) success or 0 others
  */
 
