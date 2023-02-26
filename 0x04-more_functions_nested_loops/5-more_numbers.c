@@ -15,7 +15,7 @@ void more_numbers(void)
 
 	for (y = 0; y < 10; y++)
 	{
-		for (z = 0; z <= 14: z++)
+		for (z = 0; z <= 14; z++)
 		{
 		if (z > 9)
 		{
@@ -26,4 +26,3 @@ void more_numbers(void)
 		_putchar('\n');
 	}
 }
-
