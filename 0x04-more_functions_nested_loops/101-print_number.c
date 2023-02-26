@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_number: prints integer
- * @k: int
+ * print_number -  prints integer
+ * @n: int
  *
  * Return: void
  */
