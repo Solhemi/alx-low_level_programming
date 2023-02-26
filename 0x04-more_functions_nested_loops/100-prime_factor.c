@@ -17,7 +17,7 @@ int main(void)
 	long number = 612852475143;
 	double square = sqrt(number);
 
-	for (x = 1; x <= square; x++)
+	for (x = 3; x <= square; x = x +2)
 	{
 		if (number % x == 0)
 		{
