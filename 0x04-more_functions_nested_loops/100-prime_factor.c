@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main: Entry point
+ * main - prints largest prime factor
  * Description: main prints largest prime factor
  *
  * Decription: fn prints largest prime
