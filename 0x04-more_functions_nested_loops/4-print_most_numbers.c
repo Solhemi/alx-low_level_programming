@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_most_numbers - print no != 2& 4
+ * @i: int
+ * Description: prints no
+ * Return: void
+ */
+
 void print_most_numbers(void)
 {
 	int i;
