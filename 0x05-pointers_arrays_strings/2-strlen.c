@@ -9,12 +9,12 @@
  */
 int _strlen(char *s)
 {
-	char s[];
-	int i;
+	char *str[];
+	int len;
 
-	for (i = 0; s[i] != '0'; ++i)
+	for (len = 0; *str[len] != '0'; ++len)
 	{
-		printf("length of string is: %d", i);
+		printf("length of string is: %d\n", len);
 	}
 	return (0);
 }
