@@ -20,7 +20,7 @@ char *leet(char *n)
 	{
 		for (m = 0; m < 10; m++)
 		{
-			if (n[l] = s1[m])
+			if (n[l] == s1[m])
 			{
 				n[l] = s2[m];
 			}
