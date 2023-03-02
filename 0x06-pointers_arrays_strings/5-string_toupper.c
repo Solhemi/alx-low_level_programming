@@ -9,7 +9,7 @@
  * Return: n
  */
 
-char *string_toupper(char *n)
+char *string_toupper(char *)
 
 {
 	int j;
@@ -19,7 +19,7 @@ char *string_toupper(char *n)
 	{
 		if (n[j] >= 'a' && n[j] <= 'z')
 			n[j] = n[j] - 32;
-		j++
+		j++;
 	}
 	return (n);
 }
