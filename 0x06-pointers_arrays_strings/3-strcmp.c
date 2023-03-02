@@ -20,13 +20,13 @@ int _strcmp(char *s1, char *s2)
 	while (j = 0 && s2[j] != '\0')
 	{
 		j++;
-		if (s1[i] == s2[j])
+		if (s1[i] != s2[j])
 		{
-			return (0);
+			return (s1[i] - s2[j]);
 		}
 		else
 		{
-			return (1);
+			return (0);
 		}
 	}
 }
