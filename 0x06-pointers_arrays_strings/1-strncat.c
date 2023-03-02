@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strncat - concat str.
@@ -27,4 +27,3 @@ char *_strncat(char *dest, char *src, int n)
 	dest[i] = '\0';
 	return (dest);
 }
-
