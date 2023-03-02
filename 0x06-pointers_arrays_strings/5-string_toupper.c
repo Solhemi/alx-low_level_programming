@@ -3,13 +3,13 @@
 /**
  * string_toupper - f
  * 'a': char
- * 'n': array
+ * @n: array
  * 'z': char
  * @ ' ': char
  * Return: n
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *n)
 
 {
 	int j;
