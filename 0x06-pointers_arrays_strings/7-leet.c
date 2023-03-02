@@ -2,11 +2,11 @@
 
 /**
  * *leet - fn
+ * @n: input
  *
  *
  *
- *
- *Return: chari
+ * Return: chari
  */
 
 char *leet(char *n)
