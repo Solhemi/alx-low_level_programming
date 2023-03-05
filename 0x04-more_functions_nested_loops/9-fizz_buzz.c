@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 
 /**
@@ -30,7 +31,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", i)
+			printf("%d ")
 		}
 	}
 	printf("\n");
