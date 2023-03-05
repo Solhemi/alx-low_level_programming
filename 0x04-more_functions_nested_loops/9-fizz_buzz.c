@@ -34,7 +34,7 @@ int main(void)
 			printf(" ");
 		else
 		{
-			printf("%d ")
+			printf("%d", i);
 		}
 	}
 	printf("\n");
