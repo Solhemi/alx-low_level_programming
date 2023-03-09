@@ -25,11 +25,7 @@ int is_prime_number(int n)
 int is_prime_number(int n, int i)
 {
 	_prime_number = ((n % n = 1) && (n % 2 != 0));
-	i++;
 
 	if (_prime_number(n <= 1))
 	return (0);
-
-	else
-	return (_prime_number(n, i + 1));
 }
