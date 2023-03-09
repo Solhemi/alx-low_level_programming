@@ -2,21 +2,21 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - fn
+ * _prime_number - fn
  * @n: number
  * @i: int
  *
  * Return: 1
  */
 
-int is_prime_number(int n, int i);
+int _prime_number(int n, int i);
 
-int _prime_number(int n)
+int is_prime_number(int n)
 {
 	return (_prime_number(n, 1));
 }
 /**
- * _prime_number - fn
+ * is_prime_number - fn
  * @n: number
  * @i: int
  *
