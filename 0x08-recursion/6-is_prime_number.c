@@ -3,6 +3,7 @@
 
 /**
  * check_prime - fn
+ * is_prime_number - fn recur.
  * @n: number
  * @i: int
  *
@@ -10,6 +11,11 @@
  */
 
 int check_prime(int n, int i);
+/**
+ * is_prime_number - fn recur
+ * @n: number
+ * Return: 0
+ */
 
 int is_prime_number(int n)
 {
@@ -17,6 +23,7 @@ int is_prime_number(int n)
 }
 /**
  * check_prime - fn
+ * is_prime_number - fn recur.
  * @n: number
  * @i: int
  *
@@ -32,5 +39,5 @@ int check_prime(int n, int i)
 
 	if ((n / i) < i)
 		return (1);
-		return (check_prime(n, i + 1));
+	return (check_prime(n, i + 1));
 }
