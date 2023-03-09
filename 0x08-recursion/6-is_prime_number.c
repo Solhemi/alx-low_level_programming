@@ -24,8 +24,12 @@ int is_prime_number(int n)
  */
 int is_prime_number(int n, int i)
 {
-	_prime_number = ((n % n = 1) && (n % 2 != 0));
+	if ((n % n == 1) && (n % 2 != 0))
+		return (1);
 
-	if (_prime_number(n <= 1))
-	return (0);
+	if (n <= 1)
+		return (0);
+
+	if (n == 0)
+		return (0);
 }
