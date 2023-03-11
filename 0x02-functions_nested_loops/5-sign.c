@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * Main - entry point
- *
+ * print_sign - entry point
+ * @n: int
  * Description - checks the number
  *
- * return: 1 for positive, -1 for negative and zero for otherwise
+ * Return: 1 for positive, -1 for negative and zero for otherwise
  */
 
 int print_sign(int n)
