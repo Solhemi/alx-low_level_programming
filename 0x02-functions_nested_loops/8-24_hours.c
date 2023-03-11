@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * jack_bauer - entry point
  * jack bauer - prints every minute of day
  *
- * return 0 successs
+ * Return: 0 successs
  */
 
 void jack_bauer(void)
