@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * Abs. val, - computes absolute value
+ * _abs - computes absolute value
  *
- * c is number to be computed
+ * @c: is number to be computed
  *
- * return; Abs value of no or zero
+ * Return: Abs value of no or zero
  */
 
 int _abs(int c)
