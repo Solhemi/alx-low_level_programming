@@ -3,18 +3,14 @@
 
 /**
  * main - takes args 2 print name
- *
- * @argc: count args
- * @argv: vector
+ * @__attribute__((unused): arg
+ * @argc: arg count
+ * @argv: arg array
  * Return: 0
  */
 
-int main(argc, argv[])
-
+int main(argc __attribute__((unused)), char *argv[])
 {
-	int i = 0;
-
-	_putchar(argv[0]);
-	_putchar('\n');
+	printf("%s\n", *argv);
 	return (0);
 }
