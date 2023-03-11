@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main - entry point
- *function prints multiples of 3 and 5 < 1024
+ * main - entry point
+ * function prints multiples of 3 and 5 < 1024
  *
- *return : always 0 success
+ * Return: always 0 success
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 1024)
 	{
-		if ((i % 3 ==0) || (i % 5 == 0))
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
 			z = z + i;
 		}
@@ -22,4 +22,3 @@ int main(void)
 	printf("%d\n", z);
 	return (0);
 }
- 
