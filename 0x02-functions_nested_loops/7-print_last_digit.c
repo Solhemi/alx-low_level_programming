@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main -entry point
- * n is the number to be tested
+ * print_last_digit - entry point
+ * @n: is the number to be tested
  * Description - function prints last digit of a number
  *
- * return  1 success
+ * Return:  1 success
  */
 
 int print_last_digit(int n)
