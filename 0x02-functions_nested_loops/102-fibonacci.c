@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *Main - entry point
+ * main - entry point
  *
- *function prints all multiples of 3 and 5
+ * function prints all multiples of 3 and 5
  *
- *return always 0 success
+ * Return: always 0 success
  */
 
 int main(void)
