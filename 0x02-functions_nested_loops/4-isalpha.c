@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * Main - entry point
- *
+ * _isalpha - entry point
+ * @c: int
  * Description: checks for alphabet characters
  *
- * return: 1 for success 0 otherwise
+ * Return: 1 for success 0 otherwise
  */
 
 int _isalpha(int c)
