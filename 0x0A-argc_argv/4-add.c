@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
 	b = 0;
 	if (argc == 3)
 	{
-		a = isdigit(atoi(argv[1]));
-		b = isdigit(atoi(argv[2]));
+		a = isdigit(argv[1]);
+		b = isdigit(argv[2]);
 		add = a + b;
 		printf("%d\n", add);
 	}
