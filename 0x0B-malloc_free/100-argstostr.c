@@ -17,11 +17,11 @@ char *argstostr(int ac, char **av)
 	int k = 0;
 	char *s;
 
-	if (arc == 0 || arv == NULL)
+	if (ac == 0 || av == NULL)
 		return (NULL);
-	while (i < arc)
+	while (i < ac)
 	{
-		while (arv[i][j])
+		while (av[i][j])
 		{
 			ch++;
 			j++;
@@ -29,15 +29,15 @@ char *argstostr(int ac, char **av)
 		j = 0;
 		i++;
 	}
-	s = malloc((sizeof(char) * ch) + arc + 1);
+	s = malloc((sizeof(char) * ch) + ac + 1);
 
 	i = 0;
 
-	while (arv[i])
+	while (av[i])
 	{
-		while (arv[i][j])
+		while (av[i][j])
 		{
-			s[k] = arv[i][j];
+			s[k] = av[i][j];
 			k++;
 			j++;
 		}
