@@ -11,27 +11,32 @@
  * Return: 0
  */
 int main(int argc, char *argv[])
-
 {
-	int a, b, add;
+	int i;
 
-	a = 0;
-	b = 0;
-	if (argc == 3)
+	sum = 0;
+	unsigned int k;
+	char *e;
+
+	if (argc > 1)
 	{
-		a = isdigit(argv[1]);
-		b = isdigit(argv[2]);
-		add = a + b;
-		printf("%d\n", add);
+		for (i = 1; i < argc; i++)
+			e = argv[i];
+		for (k = 0; k < strlen(e); k++)
+		{
+			if (e[k] < 48 || e[k] > 57)
+			{
+				printf("Error\n");
+				return (1);
+			}
+			sum = sum + atoi(e);
+			e++;
+		}
+		printf("%d\n", sum);
 	}
-	if (argc == 1)
+	else
 	{
-		printf("%d\n", 0);
-	}
-	if (*(argv + 1) < 48 || *(argv + 2) > 57)
-	{
-		printf("Error\n");
-		return (1);
+		printf("0\n");
 	}
 	return (0);
 }
