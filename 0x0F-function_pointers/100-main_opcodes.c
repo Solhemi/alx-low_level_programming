@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 	array = (char *)main;
 
-	for (i = 0; i < bytes, i++)
+	for (i = 0; i < bytes; i++)
 	{
 		if (i == bytes - 1)
 		{
