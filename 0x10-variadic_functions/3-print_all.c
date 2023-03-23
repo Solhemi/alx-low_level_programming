@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 	{
 		while (format[i])
 		{
-			switch (format[i]);
+			switch (format[i])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
@@ -39,11 +39,11 @@ void print_all(const char * const format, ...)
 					str = "(nil)";
 				printf("%s%s", sep, str);
 				break;
-				default;
+				default:
 				i++;
 				continue;
 			}
-			sep ",";
+			sep = ",";
 			i++;
 		}
 	}
