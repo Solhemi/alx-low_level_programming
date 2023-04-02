@@ -4,33 +4,27 @@
 #include <string.h>
 
 /**
+ * print_list - fn to print all elements of struct list_t
+ * @node: no of nodes
+ * 
  *
- *
- *
- *
- *
- *
-
-
-typedef struct list_s
-{
-    char *str;
-    unsigned int len;
-    struct list_s *next;
-} list_t;
-*/
+ * Return: node no.
+ */
 
 size_t print_list(const list_t *h)
 {
-	char str = 0;
-	
-	if (h->str == NULL)
-		printf("[0] nil\n");
-	else
-		printf("%u %s\n", h->len, h->str);
-	h = h->next;
-	str++;
+	size_t node = 0;
 
-	return (str);
+	while(h)
+	{
+		if (h->str == NULL)
+		printf("[0] nil\n");
+	
+		else
+		printf("%u %s\n", h->len, h->str);
+		h = h->next;
+		node++;
+	}
+	return (node);
 }
 
