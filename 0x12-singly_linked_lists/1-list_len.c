@@ -6,10 +6,10 @@
 
 /**
  * list_len - length of list
- * 
+ * @h: ptr to list_t
  *
  *
- * return: i
+ * Return: i
  */
 
 size_t list_len(const list_t *h)
